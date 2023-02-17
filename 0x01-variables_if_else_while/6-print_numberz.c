@@ -8,13 +8,13 @@
 
 int main(void)
 {
-	int num = 0;
+	unsigned int num = 48;
 
-	for (num = 0; num < 10 ; num++)
+	for (num = 48; num < 58 ; num++)
 	{
-		printf("%d", num);
+		putchar(num);
 	}
-	printf("\n");
+	putchar('\n');
 
 	return (0);
 }
