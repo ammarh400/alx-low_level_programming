@@ -2,20 +2,20 @@
 #include"main.h"
 
 /**
- *main - print alphabet
+ *print_alphabet - print alphabet
  *
- *Return: Always 0 (Success)
+ *Return: void
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	char ch ='a';
 
-       for (ch = 'a'; ch <= 'z'; ; ch++)
-       {
-	       _putchar(ch);
+	char ch = '0';
 
-       }
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+	_putchar(ch);
 
-       return (0);
+	}
+	_putchar('\n');
 }
