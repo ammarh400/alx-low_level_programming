@@ -2,7 +2,7 @@
 #include"main.h"
 
 /**
- *_strncpy - function to concatenate n characters from string 2
+ *_strncat - function to concatenate n characters from string 2
  *@dest: pointer to char
  *@src: pointer to char
  *@n: number of character to concatenate
