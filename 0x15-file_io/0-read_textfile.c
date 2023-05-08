@@ -6,7 +6,6 @@
  *and print it to the POSIX standard output
  *@filename: text file that will be read
  *@letters: number of letters that should be read or print
- *
  *Return: actual number of letters that has been readed and printed or 0
  */
 
